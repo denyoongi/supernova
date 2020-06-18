@@ -1,0 +1,45 @@
+
+modLoader="javafml" 
+
+loaderVersion="[31,)" 
+
+issueTrackerURL="http://my.issue.tracker/" 
+
+[[mods]] 
+
+modId="supernova" 
+
+version="1.0" #mandatory
+ 
+displayName="Supernova 1.15.2" 
+
+updateJSONURL="http://twojastara.pl/"
+
+displayURL="http://twojastara.pl/" 
+
+logoFile="examplemod.png"
+
+credits="JYP" 
+
+authors="lil meow meow AKA jiminsdick" #optional
+
+description='Suck my dick, Pozdrawiam cieplutko :)'
+
+[[dependencies.supernova]] 
+  
+    modId="forge" 
+  
+    mandatory=true 
+
+    versionRange="[31,)" 
+   
+    ordering="NONE"
+ 
+    side="BOTH"
+
+[[dependencies.supernova]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
